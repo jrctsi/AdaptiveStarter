@@ -56,10 +56,18 @@
     <Compile Include="CalculatePlan.cs" />
     <Compile Include="CopyPlan.cs" />
     <Compile Include="CouchModelXml.cs" />
+    <Compile Include="ESAPI_Helpers.cs" />
+    <Compile Include="Objectives.cs" />
+    <Compile Include="RapidPlan.cs" />
+    <Compile Include="Structures.cs" />
     <Compile Include="InsertCouch.cs" />
+    <Compile Include="RetrieveItems.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <Content Include="IncompleteExplanation.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
